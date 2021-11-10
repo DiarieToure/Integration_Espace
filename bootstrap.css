@@ -1,0 +1,23 @@
+div.container {
+    display: flex;
+    margin:0em;
+}
+button {
+    width:5em;
+    margin-left: 5em;
+    
+}
+figure img.myimg
+{
+    margin-top: 0em;
+    width: 335px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left:5em;
+}
+@media screen and (max-width:500px)
+{
+    div.container {
+        display:block;
+    }
+}
