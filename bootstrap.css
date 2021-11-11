@@ -1,8 +1,7 @@
-div.container {
+/* div.container {
     display: flex;
     margin:0em;
 }
-button {
     width:5em;
     margin-left: 5em;
     
@@ -21,3 +20,19 @@ figure img.myimg
         display:block;
     }
 }
+ */
+
+ nav
+ {
+     display: flex;
+ }
+ #navbar
+ {
+     display: flex;
+ }
+ form.form-inline
+ {
+     display: flex;
+     float:right;
+     margin-left: 50%;
+ }

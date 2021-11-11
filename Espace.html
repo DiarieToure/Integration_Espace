@@ -6,41 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="espace.css">
+    <link rel="stylesheet" href="espace.css">
     <title>Espace</title>
 </head>
 
 
 <body>
     
-    <header class="row">
+    <header >
 
-        <div class="top" class="col-12">
-            <img src="images/logosimplon.png" alt="Logo Simplon Senegal" >
-            <ul>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">Fabrique</a></li>
-                <li><a href="#">Formation</a></li>
-                <li><a href="#">Partenariats</a></li>
-                <li><a href="#">Espace</a></li>
-                <li><a href="#">Nos entites</a></li>
-            </ul>
-            <div class="search"><img src="images/search.png" alt="Recherche"></div>
-            <div class="langue">
-                <select name="langue" id="lang">
-                    <option value="Fr">fr</option>
-                    <option value="eng" selected>EN</option>
+        <nav class="top row" > 
 
-                </select>
+            <div class="logo col-2" >
+                <img src="images/logosimplon.png" alt="Logo Simplon Senegal" >
             </div>
 
+         
 
+            <div class="block_top col-10 " >
+                <ul >
+                    <li><a href="#" ><p>Accueil</p></a></li>
+                    <li><a href="#"><p>Fabrique</p></a></li>
+                    <li><a href="#"><p>Formation</p> </a></li>
+                    <li><a href="#"><p>Partenariats</p> </a></li>
+                    <li><a href="#" ><p id="id_espace">Espace</p> </a></li>
+                    <li><a href="#"><p>Nos entites</p> </a></li>
+                    <li><a href="#"><div class="search"><img src="images/search.png" alt="Recherc he"></div></a></li>
+
+                </ul>
+
+                <div class="langue col-2 float-right">
+                    <select name="langue" id="lang" class="">
+                        <option value="Fr" >Fr</option>
+                        <option value="eng" >En</option>
+
+                    </select>
+                    <button>contact</button>
+                </div>
+
+            </div>
+
+        </nav>
+        
+    </header>
+
+
+    <section class="banniere row ">
+        <div class="block_red col-12 mx-auto">
+            <h2>Espace</h2>
+        </div>
+    </section>
+
+    <main class="big_container">
+
+        <div class="apprenant_container">
+            <section class="timeLine">
+                <div class="step_01">
+                    <h4>01</h4>
+                </div>
+            </section>
 
         </div>
 
 
-    </header>
-
+    </main>
 
 </body>
 </html>

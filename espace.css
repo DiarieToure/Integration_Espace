@@ -1,358 +1,185 @@
-body
+ body
 {
     box-sizing: border-box;
     font-family: Nunito Sans;
+    margin: 0.5%;
+
 }
 /*=========================================Le  header*==================================================*/
 
 
-header .top
+header nav
 {
     display:flex;
     background-color: #fff;
     color: #000;
+    background-color: #fff;
+    box-shadow: 0px 0.25px 2px;
+    padding-top: 1.5%;
+    justify-content:center;
 }
 
+/*nav et icon*/
+
+.top .block_top
+{
+    display:flex;
+    flex-wrap: wrap;
+    padding-left:150px;
+    align-items: baseline;
+    font-weight: 700;
+}
 header .top img
 {
-    position: absolute;
+    position:absolute;
     width: 207px;
-    height: 59px;
+    height: 63px;
+    margin-left: 15px;
 }
-header .top img ul
+header .block_top ul
 {
-    display: flex;
-    justify-content: space-between;
+    display: inline-flex;
+    margin-bottom: 0em;
+    flex-wrap: wrap;
+    margin:0em;
+    
 }
-header .top img ul li 
+header .block_top ul li 
 {
     list-style: none;
+    padding-right: 70px;
+    line-height: 13px;
+
 }
-header .top img ul li a
+header .block_top ul li a
 {
     color: #000;
     text-decoration: none;
+    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*---------------------------------------------------------------------------Titre et barre rouge ---------------------------------------------------------------*/
-section.activites h2
+header .block_top ul li a p
 {
-    width: 844px;
-    font-family: Nunito Sans;
-    font-style: normal;
-    font-size: 40px;
-    text-align: center;
-
-    color: #000000;
-
+    width: 80px;
+    height: 22px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 16px;
 }
-.barre
+
+/*barre de recherche*/
+
+div.search
 {
-    position: absolute;
-width: 110px;
-height: 8px;
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    margin-left: -35px;
+    margin-top:12px;
 
-background: #CE0033;
 }
-.title_n_bar
+div.search img
 {
-    margin: 30px ;
+    width: 18px;
+    height: 18px;
+
 }
 
-/*---------------------------------------------------------------------------Nos dernieres activites---------------------------------------------------------------*/
- .roww
+/*partie espace*/
+
+#id_espace
+{
+    border-bottom: solid 5px #ce0033;
+    padding-bottom:50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color:#ce0033;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Nunito Sans;    
+}
+/*btn contact*/
+.langue
 {
     display: flex;
-   
-
-}
-.particip h3
-{
-    width: 488px;
-    height: 55px;
-    font-family: Nunito Sans;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 55px;
-    color: #CE0033;
-    margin-left:30px;
-    margin-bottom: 0em;
-   
-}
- p.parag
-{
-    width: 480px;
-    font-family: Nunito Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 41px;
-    margin-left: 30px;
-    color: #000000;
-
-}
-
-/*************************************************************************Gestion des 4 images*************************************************************************/
-.img_paysage0
-{
-    width: 375.29px;
-    height: 235.76px;
-    left: 678.7px;
-    top: 372.22px;
-    background: url(.jpg);
-    opacity: 0.6;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    box-sizing: border-box;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    border-radius: 10px;
-}
-.img_portrait0 
-{
-    margin-top:5%;
+    justify-content:flex-end;
+    margin-bottom:8px;
     margin-left: 10%;
-    width: 360px;
-    height: 275px;
-    background: url(images/kids.jpg);
-    opacity: 0.6;
-    border-radius: 10px;
-    transform: rotate(90deg);
-}
 
-.img_portrait1
-{
-
-    height:260px;
-    margin-right:50%;
-    margin-left:-7%;
-    margin-top:13%;
-    right:500px;
-    background: url(images/kids.jpg);
-    opacity: 0.6;
-    border-radius: 10px;
-    transform: rotate(90deg);
-    float: left;
 
 }
-.block_paysage 
+
+
+.langue button
 {
-    flex-direction: flex;
+    background-color: #ce0033;
+    color: #fff;
+    width: 87px;
+    height: 32px;
+    border-radius: 25px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    border: #ce0033 solid 1px;
 }
-.block_portrait
+.langue select#lang 
 {
-    flex-direction: flex;
+    border: #ce0033;
+    background-color: #fff;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 950;
+    font-size: 13px;
+    line-height: 18px;
+
 }
-.block_payage .img_paysage1
+
+/*--------------------------------------------Baniere rouge-----------------------------*/
+
+section.banniere .block_red
 {
-    width: 382px;
-    margin-left:33%;
-    margin-top:-49%;
-    height: 235.76px;
-    background: url(.jpg);
-    opacity: 0.6;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    box-sizing: border-box;
-    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #ce0033;
+    position: absolute;
+    height: 174px;
+    margin-top:10px;
+    
 }
+section.banniere .block_red h2
+{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom:87px;
+
+    font-size: 50px;
+
+}
+
+
+/*    -------------------------------------------->  PARTIE APPRENANT*/
+
+main.bigcontainer .timeline .step_01 h4
+{
+    border: #ce0033 solid 1px;
+    border-radius: 100%;
+    color: #fff;
+    font-weight: bold;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
