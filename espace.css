@@ -2,7 +2,6 @@
 {
     box-sizing: border-box;
     font-family: Nunito Sans;
-    margin: 0.5%;
 
 }
 /*=========================================Le  header*==================================================*/
@@ -14,9 +13,12 @@ header nav
     background-color: #fff;
     color: #000;
     background-color: #fff;
-    box-shadow: 0px 0.25px 2px;
+    box-shadow: 0px 0.25px 13px rgba(0, 0, 0, 0.13);;
     padding-top: 1.5%;
+    margin-bottom: 10px;
     justify-content:center;
+    max-width: 99.9%;
+
 }
 
 /*nav et icon*/
@@ -104,7 +106,7 @@ div.search img
     display: flex;
     justify-content:flex-end;
     margin-bottom:8px;
-    margin-left: 10%;
+    margin-left: 8%;
 
 
 }
@@ -145,8 +147,8 @@ section.banniere .block_red
     background-color: #ce0033;
     position: absolute;
     height: 174px;
-    margin-top:10px;
-    
+    width: 100%;
+
 }
 section.banniere .block_red h2
 {
@@ -161,25 +163,361 @@ section.banniere .block_red h2
 
 /*    -------------------------------------------->  PARTIE APPRENANT*/
 
-main.bigcontainer .timeline .step_01 h4
+
+main
 {
-    border: #ce0033 solid 1px;
-    border-radius: 100%;
-    color: #fff;
-    font-weight: bold;
+    box-sizing: border-box;
+    max-width: 99.3%;
+
+
+}
+
+/*-------------------------------------------------> Je veux m'inscrire a une formation*/
+.hd_iscription 
+{
+    display: block;
+    padding-top:300px;
+    position: absolute; 
+}
+div.apprenant_container , .formateur_container
+{
+    margin-top: 5%;
+    margin-left: 5%;
+
+
+}
+
+.apprenant_container .timeLine h2, .hd_formateur h2
+{
+    color: #ce0033;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    padding-top:150px;
+    position: relative; 
     
+}
+h3
+{
+
+    color: #ce0033;
+    border-bottom-width: 0.5px; 
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    padding-top:29px;
+    position: relative;
+}
+
+.apprenant_container div.underlined 
+{
+    border-bottom: solid #000 2px;
+    width:125px;
+    padding-top:20px;
+    position: relative;
+}
+
+/*==========================================  Les boutons rouges  ========================*/
+div.wrapper
+{
+    position: absolute;
+    height: 12.67px;
+    top:600px;
+    background: rgba(196, 196, 196, 0.26);
+    margin-left: 85px;
+    width:19%;
+}
+.bar_light2, .bar_light3, .bar_light4
+{
+    height: 12.67px;
+    background: rgba(196, 196, 196, 0.26);
+    width:19%;
+}
+.bar_light2
+{
+    position: absolute;
+    top:600px;
+    left: 200px;
+}
+.wrapper .icon
+{
+    border: solid #ce0033 0.5px ;
+    border-radius:100%;
+    background-color: #fff;
+    opacity: 1; 
+    color: #ce0033;
+    font-weight: bold;
+    width: 85px;
+    height: 87.17px;
+    padding:0%;
+    margin-top:5% ;
+    
+}
+div.focused .icon
+{
+    border: solid #ce0033 0.5px ;
+    color: #fff;
+    background-color: #ce0033;
+
+
+}
+.row 
+{
+    flex-wrap: wrap;
+}
+.wrapper .icon .number
+{
+    width: 75px;
+    height: 44px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 33px;
+    line-height: 45px;
+    text-align: center;
+    position: relative;
+    top:20px;
+}
+div.container
+{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.step
+{
+    margin-right: 0px;
+}
+.step p
+{
+    font-family: Nunito Sans;
+    color:rgba(0, 0, 0, 0.514);
+}
+.step p.focused
+{
+    color: #000;
+}
+
+.step h4
+{
+    color:#ce0033;
+    opacity: 0.5;
+}
+.step h4.focused
+{
+    color: #ce0033;
+    opacity: 1;
+}
+.step h4, .step p
+{
+    width:60%;
+    margin:0%;
 
 }
 
 
+/*-------------------------------------------------->  appel a candidature en cours*/
+
+section.candidature 
+{
+    margin-right: 3%;
+}
+section.candidature .hd_candidature
+{
+    margin-top: 150px;
+}
+.block_candidature
+{
+    justify-content: center;
+    margin-top:50px;
+}
+.main_candidature
+{
+    margin-bottom: 25px;
+    border-bottom: 1px solid rgba(206, 0, 51, 0.2);
+    box-sizing: border-box;
+}
+.img_
+{
+    padding-top:5%;
+    width:450px;
+    height:60%;
+}
+
+.description_candidature
+{
+    display: inline-block;
+    max-width: 700px;
+
+}
+.description_candidature h4
+{
+    color: #ce0033;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom:30px;
+    margin-top:0px;
 
 
+}
+.description_candidature p
+{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #000000;
+    margin-left: 10%;
+
+}
+
+.date_candidature
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.date_candidature p
+{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #CE0033;
+}
+.date_candidature p span
+{
+    color: rgba(0, 0, 0, 0.25);
+
+}
+.btn-danger
+{
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 57px;
+    background: #CE0033;  
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.btn-danger span
+
+{
+position: static;
+width: 100px;
+height: 27px;
+left: 24.5px;
+top: 10.5px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+/*----------------------------------------- PARTIE FORMATEUR ---------------------------------------------------*/
 
 
+.hd_formateur
+{
+    display:block;
+    
+}
+.formateur_container div.underlined 
+{
+    border-bottom: solid #000 2px;
+    width:125px;
+    padding-top:20px;
+    position:absolute;
+}
 
+/**-----------Banniere rouge avec texte et video*/
+.formateur-img img
+{
+    width:80%;
+    height:40%;
+}
+.container-lg 
+{
+    margin-top:10px;
+}
+.red-bg 
+{
+    margin-top: -35%;
+    z-index: -2;
+    height:80%;
+}
 
+.formateur-text 
+{
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+color: #fff;
+padding-left: 30px;
+line-height: 200.9%;
+}
+.formateur-text .btn
+{
+    background: #FFFFFF;
+    border: 1px solid #CE0033;
+    box-sizing: border-box;
+    border-radius: 30px;
+    width: 205px;
+    height: 45px;
 
+}
+.formateur-text .btn:hover
+{
+    background: #FFFFFF;
+    border: 1px solid #CE0033;
+    box-sizing: border-box;
+    border-radius: 50px;
+    width: 225px;
+    height: 50px;
+    box-shadow: 1px rgb(80, 73, 73);
 
+}
+.formateur-text .btn .join
+{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: center;
+    color: #CE0033;
+    padding: 15px;
+    width: 200px;
+}
 
+@media screen and (max-width: 650px) 
+{
+    
+    .formateur-img img
+{
+    width:80%;
+    height:40%;
+}
 
+    .container-lg 
+{
+    margin-top:10px;
+    background-image: url(images/back_ground.png);
+}
 
+}
+/*ESPACE ENTREPRISE*/
