@@ -88,6 +88,9 @@ div.search img
 }
 
 /*partie espace*/
+main{
+    margin: 0em;
+}
 
 #id_espace
 {
@@ -147,7 +150,7 @@ section.banniere .block_red
     background-color: #ce0033;
     position: absolute;
     height: 174px;
-    width: 100%;
+    width: 99%;
 
 }
 section.banniere .block_red h2
@@ -179,10 +182,10 @@ main
     padding-top:300px;
     position: absolute; 
 }
-div.apprenant_container , .formateur_container
+div.apprenant_container , .formateur_container , .entreprise_container
 {
     margin-top: 5%;
-    margin-left: 5%;
+    margin-left: 3%;
 
 
 }
@@ -429,7 +432,10 @@ color: #FFFFFF;
 
 /*----------------------------------------- PARTIE FORMATEUR ---------------------------------------------------*/
 
-
+.main_formateur
+{
+    max-width:95%;
+}
 .hd_formateur
 {
     display:block;
@@ -517,7 +523,235 @@ line-height: 200.9%;
 {
     margin-top:10px;
     background-image: url(images/back_ground.png);
+    max-width:1400px;
 }
 
 }
-/*ESPACE ENTREPRISE*/
+/*----------------------------------------------------Fin espace entreprise*/
+
+/* debut ESPACE ENTREPRISE*/
+
+section.talents
+{
+    display: flex;
+
+}
+
+h3.recrut
+{
+    color: black;
+    width: 100%;
+}
+.underlined_red
+{
+    border-bottom: solid #ce0033 2px;
+    width:125px;
+    padding-top:5px;
+    position: relative;
+}
+.hd_entreprise
+{
+    display: block;
+    max-width:90%;
+    margin-bottom: 0px;
+}
+.hd_entreprise .row
+{
+    max-width:1700px;
+}
+.input-group span
+{
+    background-color: #fff;
+}
+
+/*---- Barre de recherche*/
+img.search
+{
+    background-color: #FFFFFF;
+}
+.input-group
+{
+    width: 75%;
+    height: 57px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-top:30px;
+    margin-left: 5%;
+}
+.input-group input .placeholder
+{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.56);
+}
+.input-group input
+{
+    border-color: transparent;
+}
+
+/*-------------------------------------Caroussel profils des talents*/
+
+.block_carousel
+{
+
+    width:90%;
+
+}
+.owl-carousel .owl-stage-outer 
+{
+    overflow: hidden;
+    
+}
+.item h4, .item h5, .item
+{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+}
+.item h5
+{
+    color: #ce0033;
+    font-size: 16px;
+    line-height: 160%;
+}
+.item img
+{
+    width: 296px;
+    height: 320px;
+}
+/*------------------------------------end carousel*/
+
+
+/*section depot d'une offre*/
+
+.depot_offre
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.depot_offre .container-fluid
+{
+    padding: 10px;
+}
+.text_depot 
+{
+    padding:0px;
+}
+.text_depot p
+{
+    margin-top:27px;
+    width: 90%;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    margin-bottom: 30px;
+    color: #000000;
+    padding: 0px;
+
+}
+/*Formulaire*/
+.formulaire_depot form .btn-danger
+{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 35px;
+} 
+
+.container-fluid .formulaire
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-fluid .formulaire .img-depot img
+{
+    width: 100%;
+}
+.formulaire_depot h4
+{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    margin-bottom: 70px;
+    color: #CE0033;
+
+}
+
+.formulaire_depot form input 
+{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 26px rgba(94, 109, 108, 0.34);
+    border-radius: 10px;
+    width: 302px;
+    height: 61px;
+    margin-right: 200px;
+}
+.formulaire_depot form #join_file input 
+{
+    background: #FFFFFF;
+    height:5px;
+    width:85%;
+
+}
+.formulaire_depot form input .placeholder
+{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #A7ACB6;
+    margin-left: 651px;
+    margin-top: 536px;
+} 
+
+.formulaire_depot form textarea
+{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 26px rgba(94, 109, 108, 0.34);
+    border-radius: 10px;
+    width: 92%;
+    height: 159px;
+}
+.formulaire_depot form textarea .placeholder
+{
+    width: 84px;
+    height: 25px;
+    left: 643px;
+    top: 911px;
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #A7ACB6;
+}
+.formulaire_depot form .btn-danger
+{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 35px;
+}
